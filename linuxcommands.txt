@@ -1,0 +1,50 @@
+pwd		- Present working directory
+cd		- change directory
+cd ..		- take one directory back
+cd /		- take me to the root path
+cd /home	- take me to the particular path
+sudo su		- to become a super user
+ls		- List the files and directories
+ls -a		- List the files and directories with hiden files too
+ls -l		- show me the long lists
+ls -t		- show me the modified file or directorie first
+mkdir		- to create directorie
+mkdir -p main/sub- to create parent and sub directory the -p stands for parent
+mkdir -p main/{sub1,sub2}- creates sub1 and sub2 inside main
+touch		- to create a file
+touch a b c	- to create multiple files
+touch{1..10}	- to create file 1 to 10
+cat > file.txt	- to create file if file exist overrite the file if doesn't create new file
+cat file1 > file 2- Overwrite the file1 with file 1 contents
+cat file1 >> file 2- append file1 contents to file2
+cat file.txt	- display the file contents
+cat -n file.txt	- display file content with line numbers
+more file.txt	- shown full file content
+head file.txt	- display the top 10 line of the file content
+head -5 file.txt - display the top 5 line of the file content we can modifi the line numbers
+tail -5 file.txt - dislpay the below 5 line of the file content
+vi file.txt	- open file in vi editor to edit and add content
+cp file1 file2	- copy file1 content to file2 with this cp command we can copy the files from this directories to some other directories
+mv oldfile newfile- we can rename the file with mv and we can transfer the file from this direcory to some other directory without copy
+rm		- remove files and directories
+rm -f		- with this -f we can close the file forcefully
+tar		- to archive file/files
+sudo apt install rename - to install rename packager for rename multiple files
+rename 's/current/rename' * - find and replace what we want
+wc file1.txt	- to count lines, words, charecters
+grep "fine" file.txt - to display the particular words line, and its a casesensitive we can modifi search with -i for insensitive.
+useradd username - add a user
+passwd username	- assign password to the user
+chown		- to change file ownership
+chmod		- change file access permission
+groupadd groupname- create a group
+gpasswd		- assign a group password
+ping www.google.com - to receive host data
+wget filename	- to download a file
+tracerout	- apt install tracerout{receive host's rout packets} 
+top		- to see the processing files like taskmanager with cpu and memory usages
+ps		- to see the processing files without cpu and memory usages
+kill pid	- to stop processing
+man command	- to know all information about the command
+help command	- to know about the available option for this command
+history		- print the command we used
